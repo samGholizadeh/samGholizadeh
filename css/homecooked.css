@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.panel-heading{
+	height: 40px;
+}
+
+.nav-pills li a{
+	height: 20px;
+	width: 100px;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+
+.nav-pills #adminPosts a{
+	width: 50px;
+}
+
+.nav-pills #adminDrafts a{
+	width: 50px;
+}
+
+.borderTemp{
+	border: 1px solid black;
+}
+
+.upperBloggSamples{
+
+}
+
+div.panel-body{
+	padding: 3px;
+}
+
+.bloggTitle{
+	display: inline-block;
+	position: relative;
+	width: 65%;
+}
+
+.bloggDate{
+	margin-top: 10px;
+	font-size:10px;
+}
+
+.cursor{
+	cursor: pointer;
+	cursor: hand;
+}
+
+#adminPosts{
+	cursor: pointer;
+	cursor: hand;
+}
+
+#newPostClick:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+#newPostTextArea textarea{
+	resize: vertical;
+	min-height: 100px;
+	overflow: visible;
+}
+
+#newComment:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.newCommentTextArea textarea{
+	resize: vertical;
+	min-height: 100px;
+}
+
+.form-signin input[type="email"]{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.form-signin input[type="password"]{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.form-signin input[type="text"]{
+	width: 100%;
+	margin-bottom: 10px;
+}
