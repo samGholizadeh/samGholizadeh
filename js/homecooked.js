@@ -219,6 +219,36 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	$("#java1").click(function(){
+		$("#utbildningContent").html("<b>Java and technical environment</b><br><br>"+
+		"Introductory course that spanned two weeks. The teachers went through Eclipse that is the"+
+		" development environment we are using. We talked about what expectations we as students had on"+
+		" the education and how the market for Java programmers look like. The university had arranged"+
+		" study visits that we went to. It was a good experience since we had the possibility to see how"+
+		" professional programmers worked and ask them questions."+
+		" <br><br>"+
+		" We also went through basic programming and network and the course ended with a small programming test"+
+		" where you had to create a program that asked for an integer input and print out all the numbers"+
+		" between the given input value and 20. I guess they just wanted to feel where the students where"+
+		" programming wise.");
+	});
+	
+	$("#java2").click(function(){
+		$("#utbildningContent").html("<b>Objectoriented programming and Java</b><br><br>"+
+		"This course spanned over 12 weeks with a four weeks break somewhere in the middle where we studied objectoriented analysis and design."+
+		" During the first three weeks we went through programming bases such as data types, variables,"+
+		" functions, loops, conditions, constructors etc. Then they continued with more object-oriented"+
+		" aspects of programming such as classes, encapsulation, objects, inheritance, polymorphism amongst other things."+
+		" <br><br> We learned how to usitilize Github when collaborating with other programmers on projects. It was fairly simple to understand and"+
+		" use. It was a very welcomed feature I did not know how to use and it made managing my own projects much easier."+
+		" We started to dig deeper into the Java API and worked with threads and threadhandling, I/O, GUI with Swing library amongst other things."+
+		" Then we had our first written test. After it the OOP course took a break for four weeks and OOAD began. After OOAD we began with something"+
+		" I've never worked with and that is network programming. We also started unit testing our code with JUnit."+
+		" The end of the course consisted of a big group assignment (programming a chat client) "+
+		" <br><br>Littarature used: Herbert Schildt, 2011 - Java The Complete Reference, 8th Edition, ISBN: 978-0071606301."+
+		" ")
+	});
+	
 	
 	/*
 	$("#registerForm input[type='email']").blur(function(){
