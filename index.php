@@ -126,6 +126,10 @@
                 exit;
             }
             break;
+        case "downloadContent":
+            echo "something";
+            downloadFile($_GET["file"]);
+            break;
         case "utb":
             if($_GET["utb"] == "java"){
                 include_once "java.php";
@@ -140,6 +144,23 @@
             header("location:index.php");
             exit();
             break;
+    }
+
+    function downloadFile($filename){
+        if(isset($_GET["file"])){
+            header("Content-Description: File Transfer");
+            header("Content-Type: application/octet-stream");
+            header("Content-Disposition: attachment; filename=".basename($filename));
+            header('Content-Transfer-Encoding: binary');
+            header('Expires: 0');
+            header('Cache-Control: must-revalidate');
+            header('Pragma: public');
+            header('Content-Length: ' . filesize($filename));
+            ob_clean();
+            flush();
+            readfile($filename);
+            exit;
+        }
     }
 
 ?>

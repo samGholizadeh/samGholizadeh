@@ -243,11 +243,24 @@ $(document).ready(function(){
 		" use. It was a very welcomed feature I did not know how to use and it made managing my own projects much easier."+
 		" We started to dig deeper into the Java API and worked with threads and threadhandling, I/O, GUI with Swing library amongst other things."+
 		" Then we had our first written test. After it the OOP course took a break for four weeks and OOAD began. After OOAD we began with something"+
-		" I've never worked with and that is network programming. We also started unit testing our code with JUnit."+
-		" The end of the course consisted of a big group assignment (programming a chat client) "+
+		" I've never worked with and that is network programming and I learned a lot. We also started unit testing our code with JUnit."+
+		" The end of the course consisted of a big group assignment (programming a chat client), repetition and programming test."+
+        " <br><br>We handed in three different assignments during the course and you can find the source files in the list to your right."+
 		" <br><br>Littarature used: Herbert Schildt, 2011 - Java The Complete Reference, 8th Edition, ISBN: 978-0071606301."+
 		" ")
 	});
+
+    $("#java2assign1").click(function(){
+       $("#utbildningContent").html("<b>OOP and Java assignment 1.</b><br><br>"+
+       "In this first assignment we were given the task to create a small calculator that could handle"+
+       " basic operators such as +, -, *, / that could be applied to two operands. It was a fairly easy project."+
+       " Input and output should be console based and the program should continue until the users chooses to quit.<br><br>"+
+       " <a href='?a=downloadContent&file=OOPassign1.zip'><b>Download source code</b></a>")
+    });
+
+    $("#java2assign2").click(function(){
+
+    });
 	
 	
 	/*

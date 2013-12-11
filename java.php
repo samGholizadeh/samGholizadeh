@@ -19,16 +19,16 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="margin-bottom: 10px;">
+                            <a id="java2" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="margin-bottom: 10px;">
                                 <b>OOP och Java</b>
                             </a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <a href="#" id="OOPJavaAssignment1"><b>Inlämningsuppgift 1</b></a>
-                            <a href="#" id="OOPJavaAssignment2"><b>Inlämningsuppgift 2</b></a>
-                            <a href="#" id="OOPJavaAssignment3"><b>Inlämningsuppgift 3</b></a>
+                            <a id="java2assign1" href="#" id="OOPJavaAssignment1"><b>Inlämningsuppgift 1</b></a>
+                            <a id="java2assign2" href="#" id="OOPJavaAssignment2"><b>Inlämningsuppgift 2</b></a>
+                            <a id="java2assign3" href="#" id="OOPJavaAssignment3"><b>Inlämningsuppgift 3</b></a>
                         </div>
                     </div>
                 </div>
