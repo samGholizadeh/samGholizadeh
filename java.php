@@ -1,6 +1,6 @@
 <?php include_once "header.php"; ?>
 
-    <div class="row-fluid">
+    <div class="row-fluid" style="margin-bottom: 10px;">
 
     <div class="col-md-12">
 
@@ -29,6 +29,20 @@
                             <a id="java2assign1" href="#" id="OOPJavaAssignment1"><b>Inlämningsuppgift 1</b></a>
                             <a id="java2assign2" href="#" id="OOPJavaAssignment2"><b>Inlämningsuppgift 2</b></a>
                             <a id="java2assign3" href="#" id="OOPJavaAssignment3"><b>Inlämningsuppgift 3</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a id="ooad" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                                <b>OOAD</b>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTen" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <a id="OOADassign1" href="#"><b>Assignment</b></a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +133,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseNinet">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
                                 <b>Teknikfördjupning</b>
                             </a>
                         </h4>
@@ -157,7 +171,6 @@
             </div>
         </div>
     </div>
-
     </div>
 
 <?php include_once "footer.php"; ?>

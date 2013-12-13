@@ -270,7 +270,46 @@ $(document).ready(function(){
 		"We were assigned to create a booking system for a fictional hotell. The system should be able to show what rooms are available at a certain time and be able to book a room for a specific guest. The hotell rooms should be imported from a Java Property file for learning purposes.<br><br><b>Approach</b><br><br>I came to the conlusion that I needed five classes for this program: Hotell, Rum, Bokning, Gäst and FileHandler. The main thread is located inside the Hotell class. The interaction with the administrator is inside a while loop. Since we had a timelimit I focused on functionality rather ther looks and decided to make the program console based. The program starts by reading all the hotel rooms from a Java property file, instantiate a Room object, add ten randomly generated future dates to the bookinglist of that specific room. Finally it adds the instantiated room to an ArrayList that is an instance variable of the Hotell object.<br><br>The administrator is prompted to input a date with a speicif format and all the available rooms for that speicif date will be listed and he/she can book a room from that list.<br><br><a href='?a=downloadContent&file=OOPassign3.zip'><b>Download source code</b></a>")
 	});
 	
+	$("#ooad").click(function(){
+		$("#utbildningContent").html("<b>Object oriented Analysis and Design</b><br><br>"+
+        "This course was in the middle of the OOP and Java course and spanned over four weeks."+
+        " We learned how to start a project by analyzing the requirements and trying to grasp all"+
+        " the features and requirements the customer has set and try to have a dialogue. We learned about iterative"+
+        " development methodologies and all the steps that each iteration has and what happened in each one."+
+        "<br><br>The course was short and intensive and the knowledge was condensed and good. We got" +
+        " a better understanding of how real development look like in the real world and that programming"+
+        " is actually more about analyzing, planning and organizing rather then sitting down and coding "+
+        " mindlessly and hope for the best. I also understood that its equally important to be able to identify"+
+        " what classes you should create by reading the requirements and what responsibilities you should give them"+
+        " as being able to program or knowing the Java API."+
+        " <br><br>Another thing I Iterative methodologies also gives the developer and the customer the"+
+        " possibility to change their mind and add/remove features during the development without breaking the project.<br><br>"+
+        " We went through things like class diagrams, use case diagrams, deployment diagram and how to annotate"+
+        " relationships between classes/use cases/deployment entities. We used Microsoft Visio when doing them.<br><br>")
+	});
 	
+	$("#OOADassign1").click(function(){
+        $("#utbildningContent").html("<b>OOAD Assignment 1<br><br></b>"+
+        "The system should be able Imagine systems to control energy consumption for an apartment.<br>"+
+        "We have the following prerequisites:<br>"+
+        "- There are counters for energy consumption. The system will have access to data on energy consumption for heating , refrigerator, stove and lighting.<br>"+
+        "- There are thermometers that give the system access to the temperature outdoors and indoors.<br>"+
+        "- There is a calendar that can give the system access to the times of sunrise and sunset at different dates.<br><br>"+
+        "We have the following requirements:<br>"+
+        "- The system must keep track of consumption over time , and present it by day, week , month and year.<br>"+
+        "- The system must be able to present energy consumption broken down by heat , refrigerator, stove and light.<br>"+
+        "- The system must be able to calculate the predicted consumption for a future time period , based on the outdoor temperature, the desired indoor temperature and how many hours a day the light will be on.<br>"+
+        "- The system must keep track of users who have access to it , where one can distinguish between users who may make projections for future energy consumption and those who only get to read how much energy has been spent.<br><br>"+
+
+        "Under these conditions, you should:<br>"+
+        "1. Identify actors and at least five use cases ( use cases ) . Draw a graph of these.<br>"+
+        "2nd Specify at least 3 of your use case in more detail. Print documents with them.<br>"+
+        "3rd Draw a class diagram ( static analysis) of all classes you can identify the system , and the relationships between them.<br>"+
+        "4th Sequence diagram for the interaction of the three use cases selected in 2 above.<br>"+
+        "5th Draw a state diagram (state machine ) for what you think is the system's most central state.<br>"+
+        "6. Furnish details of at least 5 core classes in your system, with all the attributes and methods. Draw a class diagram that shows these . ( However, you do not have to write any code. )<br><br>"+
+        "<a href='?a=downloadContent&file=OOADFiles.zip'><b>Download project files</b></a>")
+    });
 	/*
 	$("#registerForm input[type='email']").blur(function(){
 		alert($("#registerForm input[type='email']").val());
@@ -288,5 +327,5 @@ $(document).ready(function(){
 			}
 		});
 	}); */
-	
+
 });

@@ -36,7 +36,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li<?php if($action == "blogg") echo " class='active'"; ?>><a href="?a=blogg"><b>Blogg</b></a></li>
-                    <li<?php if($action == "cv") echo " class='active'"; ?>><a href="?a=downloadcv"><b>CV</b></a></li>
+                    <li<?php if($action == "cv") echo " class='active'"; ?>><a href="?a=downloadContent&file=CV.docx"><b>CV</b></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Utbildningar</b> <b class="caret"></b></a>
                         <ul class="dropdown-menu">
