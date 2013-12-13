@@ -127,7 +127,6 @@
             }
             break;
         case "downloadContent":
-            echo "something";
             downloadFile($_GET["file"]);
             break;
         case "utb":

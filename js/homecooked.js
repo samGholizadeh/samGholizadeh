@@ -251,16 +251,24 @@ $(document).ready(function(){
 	});
 
     $("#java2assign1").click(function(){
-       $("#utbildningContent").html("<b>OOP and Java assignment 1.</b><br><br>"+
+       $("#utbildningContent").html("<b>Simple calculator.</b><br><br>"+
        "In this first assignment we were given the task to create a small calculator that could handle"+
        " basic operators such as +, -, *, / that could be applied to two operands. It was a fairly easy project."+
        " Input and output should be console based and the program should continue until the users chooses to quit.<br><br>"+
-       " <a href='?a=downloadContent&file=OOPassign1.zip'><b>Download source code</b></a>")
+       " <b>Approach</b><br><br>"+
+	   " I created two classes. One that contains the logic to interact with the user and another one that calculates and returns the result and keeps track of the three latest results. Most of the program is a while loop. The main thread starts with declaration of essential variables, initialization of a Scanner and SimpleCalc object and a welcome message to the user. Then the program will continue by presenting three options to the user. The program will present the operators and ask the user to choose one and then input two operands. Very simple first project.<br><br>"+
+	   " <a href='?a=downloadContent&file=OOPassign1.zip'><b>Download source code</b></a>")
     });
 
     $("#java2assign2").click(function(){
-
+		$("#utbildningContent").html("<b>Inventory system.</b><br><br>"+
+		"In this assignment we were supposed to build a program that keeps track of an inventory. The point of this assignment was to utilize inheritance, interfaces and collections. You had to create two base classes. One named Domestic and ther other one Food. You had to create classes that represented products and were subclasses to one of these two classes. Each subclass should also implement an interface that would decide if the class was edible and had an expire date or could be stored forever.<br><br> The program should create eight different products initially and let the an administrator check the inventory and add or delete a product from it. The entire program is console based.<br><br><b>Approach</b><br><br>I started by analyzing the requirements. I created seven classes and two interfaces. Commodity is the super class that both Food class and domestic class inherits from. It contains data like product name, price, amount and inventory location. I created sub classes of the Domestic class and Food class that also implemented either Fresh interface or/and Stock interface.<br><br>The Controller class contains the main thread and is placed in another package for exercise purposes. Its a console based program that beings with filling two ArrayLists with objects and display options such as viewing current inventory, adding/removing items etc. for the administrator.<br><br><a href='?a=downloadContent&file=OOPAssign2.zip'><b>Download source code</b></a>");
     });
+	
+	$("#java2assign3").click(function(){
+		$("#utbildningContent").html("<b>Booking system</b><br><br>"+
+		"We were assigned to create a booking system for a fictional hotell. The system should be able to show what rooms are available at a certain time and be able to book a room for a specific guest. The hotell rooms should be imported from a Java Property file for learning purposes.<br><br><b>Approach</b><br><br>I came to the conlusion that I needed five classes for this program: Hotell, Rum, Bokning, Gäst and FileHandler. The main thread is located inside the Hotell class. The interaction with the administrator is inside a while loop. Since we had a timelimit I focused on functionality rather ther looks and decided to make the program console based. The program starts by reading all the hotel rooms from a Java property file, instantiate a Room object, add ten randomly generated future dates to the bookinglist of that specific room. Finally it adds the instantiated room to an ArrayList that is an instance variable of the Hotell object.<br><br>The administrator is prompted to input a date with a speicif format and all the available rooms for that speicif date will be listed and he/she can book a room from that list.<br><br><a href='?a=downloadContent&file=OOPassign3.zip'><b>Download source code</b></a>")
+	});
 	
 	
 	/*
