@@ -289,7 +289,7 @@ $(document).ready(function(){
 	});
 	
 	$("#OOADassign1").click(function(){
-        $("#utbildningContent").html("<b>OOAD Assignment 1<br><br></b>"+
+        $("#utbildningContent").html("<b>OOAD Assignment<br><br></b>"+
         "The system should be able Imagine systems to control energy consumption for an apartment.<br>"+
         "We have the following prerequisites:<br>"+
         "- There are counters for energy consumption. The system will have access to data on energy consumption for heating , refrigerator, stove and lighting.<br>"+
@@ -308,6 +308,7 @@ $(document).ready(function(){
         "4th Sequence diagram for the interaction of the three use cases selected in 2 above.<br>"+
         "5th Draw a state diagram (state machine ) for what you think is the system's most central state.<br>"+
         "6. Furnish details of at least 5 core classes in your system, with all the attributes and methods. Draw a class diagram that shows these . ( However, you do not have to write any code. )<br><br>"+
+        "<b>Approach</b><br><br>"+
         "<a href='?a=downloadContent&file=OOADFiles.zip'><b>Download project files</b></a>")
     });
 	/*
