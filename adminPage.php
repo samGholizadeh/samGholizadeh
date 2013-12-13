@@ -2,7 +2,7 @@
 
     <div class="row-fluid">
 
-        <div class="col-md-12">
+        <div class="col-md-12" style="padding: 0;">
             <div class="panel panel-default">
 
                 <div class="panel-heading">

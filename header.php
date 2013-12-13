@@ -64,7 +64,7 @@
                             </ul>
                         </li>
                     <?php } else
-                        echo "<li><a data-toggle='modal' href='#login'><b>Login</b></a></li>";
+                        echo "<li class='pull-right'><a data-toggle='modal' href='#login'><b>Login</b></a></li>";
                      ?>
                 </ul>
             </div><!--/.nav-collapse -->

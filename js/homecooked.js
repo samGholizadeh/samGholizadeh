@@ -50,12 +50,13 @@ $(document).ready(function(){
 					'</div>'+
 					'<div class="panel-body">'+
 						'<input id="postTitle" class="form-control" type="text" placeholder="Title" maxlength="80" style="margin-bottom: 5px;">'+
-						'<textarea placeholder="New post" class="form-control" row="10"></textarea>'+
+						'<textarea id="testarEdit" placeholder="New post" class="form-control" row="10"></textarea>'+
 						'<button id="publishPost" class="btn-primary pull-right" style="margin-top: 2px;"><b>Publish</b></button>'+
 						'<button id="saveDraft" class="btn-primary pull-right" style="margin: 2px;"><b>Save draft</b></button>'+
 					'</div>'+
 				'</div>'+
 			'</div>').show();
+            new nicEditor({iconsPath : 'nicEditorIcons.gif'}).panelInstance('testarEdit');
 		} else {
 			$(".adminSubPage").hide().eq("2").show();
 		}
@@ -77,6 +78,7 @@ $(document).ready(function(){
 			$("#newPostTextArea textarea").css("border-color", "red");
 			return false;
 		}
+        alert("asdad");
 		$.ajax({
 			type: 'POST',
 			url: '?a=publishPost',
